@@ -1,0 +1,258 @@
+body {
+  user-select: none;
+  -webkit-user-drag: none;
+  background: #333333;
+}
+
+.Home {
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+
+.ProductCardBg {
+  position: relative;
+  width: 95%;
+  height: 175px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background: linear-gradient(0deg, #000, #262626);
+  z-index: 3;
+  &:hover {
+    transform: translate(0, 0) scale(1.03);
+    &:before, &:after {
+      content: '';
+      border-radius: 25px;
+      position: absolute;
+      top: 0;
+      background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+      background-size: 400%;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      animation: animate 20s linear infinite;
+    }
+    &:after {
+      filter: blur(20px);
+    }
+  }
+}
+@keyframes animate {
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 370% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+.ProductCard {
+  background: grey;
+  color: white;
+  height: 100%;
+  border: 3px solid lightsalmon;
+  border-radius: 25px;
+  transition: all 0.4s ease;
+  /*overflow: clip;*/
+}
+
+.ProductThumbNail {
+  height: 100%;
+  width: 300px;
+  border-radius: 22px 0 0 22px;
+  float: left;
+  transition: transform 0.1s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.ProductInfo {
+  float: left;
+  width: 530px;
+  height: 100%;
+  transition: transform 0.1s linear;
+}
+
+.ProductTitle {
+  margin: 10px 0 0 20px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.ProductDescription {
+  margin: 5px 0 0 20px;
+  width: 80%;
+}
+
+.ProductPrice {
+  margin-right: 10px;
+  margin-top: 30px;
+  float: right;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.Sorter-Filter {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.SortFilt {
+  background: cornflowerblue;
+  color: white;
+  border: 0;
+  height: 27px;
+  font-size: x-large;
+  border-radius: 7px;
+  position: relative;
+  top: 20%;
+  margin: 0 0 0 25%;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    box-shadow: 0 0 30px 1px red;
+  }
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.active {
+  background-color: lightskyblue;
+}
+
+.page-item {
+  list-style: none;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 25px;
+  border-radius: 100%;
+  &:hover {
+    background: lightgrey;
+  }
+}
+
+.disabled {
+  display: none;
+}
+
+.next, .previous {
+  padding: 3px 10px 5px 10px;
+  &:hover {
+    background: lightblue;
+    border-radius: 10px;
+  }
+}
+
+@media (width < 985px) {
+  .ProductInfo {
+    width: 430px;
+  }
+}
+
+@media (width < 879px) {
+  .ProductInfo {
+    width: 330px;
+  }
+}
+
+@media (width < 774px) {
+  .ProductInfo {
+    width: 260px;
+  }
+}
+
+@media (669px < width < 701px) {
+  .ProductInfo {
+    width: 230px;
+  }
+}
+
+@media (616px <= width < 669px) {
+  .ProductThumbNail {
+    object-fit: cover;
+  }
+  .ProductInfo {
+    width: 180px;
+  }
+}
+
+@media (width < 616px) {
+  .ProductCardBg {
+  width: 90%;
+  height: 500px;
+  margin-top: 7%;
+  &:hover {
+    &:before, &:after {
+      left: 0;
+    }
+  }
+}
+
+  .ProductThumbNail {
+  width: 100%;
+  height: 250px;
+  border-radius: 22px 22px 0 0;
+  float: unset;
+  }
+
+  .ProductInfo {
+  float: left;
+  width: 100%;
+  height: 200px;
+  transition: transform 0.1s linear;
+  }
+
+  .ProductTitle {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  font-size: x-large;
+  }
+
+  .ProductDescription {
+  text-align: justify;
+  margin: 5px 0 0 10px;
+  width: 80%;
+  }
+
+  .ProductPrice {
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 30px;
+  float: unset;
+  font-weight: bolder;
+  font-size: xx-large;
+  }
+
+  .SortFilt {
+    margin-left: calc(100dvw / 8.5);
+    height: 30px;
+  }
+
+  .pagination{
+    padding-left: 0;
+    padding-top: 40px;
+  }
+}
