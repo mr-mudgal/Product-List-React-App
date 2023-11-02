@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mr-mudgal/Product-List-React-App/tree/main/public/static/css/main.f13ab1e9.css",
-    "main.js": "/mr-mudgal/Product-List-React-App/tree/main/public/static/js/main.e718408f.js",
-    "index.html": "/mr-mudgal/Product-List-React-App/tree/main/public/index.html",
-    "main.f13ab1e9.css.map": "/mr-mudgal/Product-List-React-App/tree/main/public/static/css/main.f13ab1e9.css.map",
-    "main.e718408f.js.map": "/mr-mudgal/Product-List-React-App/tree/main/public/static/js/main.e718408f.js.map"
+    "main.css": "/mr-mudgal/Product-List-React-App/static/css/main.f13ab1e9.css",
+    "main.js": "/mr-mudgal/Product-List-React-App/static/js/main.e718408f.js",
+    "index.html": "/mr-mudgal/Product-List-React-App/index.html",
+    "main.f13ab1e9.css.map": "/mr-mudgal/Product-List-React-App/static/css/main.f13ab1e9.css.map",
+    "main.e718408f.js.map": "/mr-mudgal/Product-List-React-App/static/js/main.e718408f.js.map"
   },
   "entrypoints": [
     "static/css/main.f13ab1e9.css",
