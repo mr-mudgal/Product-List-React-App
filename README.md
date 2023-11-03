@@ -1,5 +1,7 @@
 # Product Listing React App
 
+**Live App: [Product Listing React App](https://mr-mudgal.github.io/Product-List-React-App/)**
+
 This app is created using React.JS.\
 \
 This app list the demo products which are stored in a JSON file 'products.json', which is taken from [dummyjson.com](https://dummyjson.com).\
@@ -25,4 +27,14 @@ To run the application follow the following steps:
    - You can download the _Node.JS_ from: [Install Node.JS](https://nodejs.org/en)
    - You can install _npm_ from: [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
    - You can install _react_ from: [Install react](https://create-react-app.dev/docs/getting-started/)
-4. After you have completed above rquirements run this command in the cloned directory terminal: ``
+4. After you have completed above requirements run this command in the cloned directory terminal: `npm install`. This would install the dependencies in a new directory _node_modules_
+5. After that run the React App using the command `npm start`. This would start compiling the React App and will open the browser automatically to display the Product List React App.
+   * If it does not open the browser automatically and show the React App, then open a browser and visit this link in your local machine: [http://localhost:3000](http://localhost:3000)
+6. You can scroll down to see the pagination feature, or use sort and filter option from the drop down menu at the top of the page.
+
+The top of the page is fixed in position and give a blur background effect.
+
+**Thats It. Create an issue for any changes you would like to make.**
+
+### Thank You
+<p align="center" style="font-size: xx-large; font-family: 'Courier New', monospace"><a href="https://github.com/mr-mudgal" style="color: green">mr-mudgal</a></p>
