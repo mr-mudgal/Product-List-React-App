@@ -17,7 +17,7 @@ It is a simple UI yet interactive & responsive and added few hover tweaks.\
 **Have a Good Time testing\experiencing the app.**
 
 The following is a screenshot of the application:
-![This image is the snapshot of the product list react app displaying the User Interface of the application.](/home/mr-mudgal/Pictures/Screenshots/Screenshot from 2023-11-02 19-42-05.png "Product List React App ScreenShot")
+![Screenshot from 2023-11-02 19-42-05](https://github.com/mr-mudgal/Product-List-React-App/assets/100049039/96f7ce3e-5661-43d4-9772-c077c00ace89) 
 
 ## Running the Product List React App in your system.
 To run the application follow the following steps:
