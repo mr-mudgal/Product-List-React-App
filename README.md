@@ -1,6 +1,7 @@
 # Product Listing React App
 
-**Live App: [Product Listing React App](https://mr-mudgal.github.io/Product-List-React-App/)**
+**Live App: [Product Listing React App](https://mr-mudgal.github.io/Product-List-React-App/)**<br>
+Deployed on GitHub Pages (gh-pages).
 
 This app is created using React.JS.\
 \
@@ -31,10 +32,12 @@ To run the application follow the following steps:
 5. After that run the React App using the command `npm start`. This would start compiling the React App and will open the browser automatically to display the Product List React App.
    * If it does not open the browser automatically and show the React App, then open a browser and visit this link in your local machine: [http://localhost:3000](http://localhost:3000)
 6. You can scroll down to see the pagination feature, or use sort and filter option from the drop down menu at the top of the page.
+7. To deploy the application run ```npm run deploy```. The script for deployment is written in 'package.json', by
+   default it is for GitHub pages (gh-pages) you can modify based on your needs.
 
 The top of the page is fixed in position and give a blur background effect.
 
-**Thats It. Create an issue for any changes you would like to make.**
+**That's It. Create an issue for any changes you would like to make.**
 
 ### Thank You
 <p align="center" style="font-size: xx-large; font-family: 'Courier New', monospace"><a href="https://github.com/mr-mudgal" style="color: green">mr-mudgal</a></p>
